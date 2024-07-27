@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grocery website </title>
+        <link rel="icon" type="images/icon" href="images/favicon.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--font awesome linl-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <!--font awesome link close-->
+        <!--code for linking css file-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+       <!--<link
+       rel="stylesheet"
+       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+     />-->
+     
+     
+
+
+    </head>
+    <body>
+       <!--header section-->
+       <header class="header">
+        <a href="#" class="logo"><i class="fas fa-basket-shopping">grocery</i></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+            
+
+
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="search here">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/best-product-1.jpg">
+                <div class="content">
+                    <h3>orange</h3>
+                    <span class="price">$5.50</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/best-product-2.jpg">
+                <div class="content">
+                    <h3>Mang0</h3>
+                    <span class="price">$5.50</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/best-product-3.jpg">
+                <div class="content">
+                    <h3>banana</h3>
+                    <span class="price">$5.50</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+            <div class="total">total : $20.2/-</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+        <form action="#" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>Forget Your Password <a href="#">Click Here</a></p>
+            <p>Dont Have An Account <a href="#">Create Now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+       </header> 
+       <!--baneer section start-->
+       <section class="home" id="home">
+        <div class="content">
+           <h3>Fresh And <span>Organic</span> Prodcuts For You</h3>
+           <p>This website is designed by cyber warrious youtube channner so that
+            everyoun can learn in an easy way that how to create a website.
+           </p>
+           <a href="#" class="btn">shop now</a>
+        </div>
+
+       </section>
+       <!--baneer section close-->
+       <!--our features section start-->
+       <section class="features" id="features">
+        <h1 class="heading"> our <span>features</span></h1>
+
+        <div class="box-container"box->
+            <div class="box">
+                <img src="images/fea1.jpg">
+                <h3>Fresh and Organic</h3>
+                <p>Soft fruits are the perfect go-to when you want something sweet and light.
+
+                </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="images/fea2.jpg">
+                <h3>Fresh and Organic</h3>
+                <p>Soft fruits are the perfect go-to when you want something sweet and light.
+
+                </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="images/fea3.png">
+                <h3>Fresh and Organic</h3>
+                <p>Soft fruits are the perfect go-to when you want something sweet and light.
+
+                </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+
+
+        </div>
+       </section>
+
+
+
+
+       <!--our features section close-->
+       <!--product section start--->
+       <section class="products" id="products">
+
+        <h3 class="heading">our<span> products </span></h3>
+        <!--product section-1-->
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                 
+                    <img src="images/vegetable-item-1.jpg" >
+                    <h1>fresh tomato</h1>
+                    <div class="price">$50.99/- - 99.90-</div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/vegetable-item-2.jpg">
+                    <h1>fresh flower</h1>
+                    <div class="price">$50.99/- - 99.90-</div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/vegetable-item-3.png">
+                    <h1>fresh banana</h1>
+                    <div class="price">$50.99/- - 99.90-</div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/vegetable-item-5.jpg">
+                    <h1>fresh batata</h1>
+                    <div class="price">$50.99/- - 99.90-</div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+                </div>
+            </div>
+            <!--product section-2-->
+
+
+                <div class="swiper product-slider">
+                    <div class="swiper-wrapper">
+                    
+                <div class="swiper-slide box">
+                    <img src="images/vegetable-item-4.jpg">
+                    <h1>fresh shimala</h1>
+                    <div class="price">$50.99/- - 99.90-</div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/vegetable-item-6.jpg">
+                    <h1>fresh kothimbeer</h1>
+                    <div class="price">$50.99/- - 99.90-</div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/Mango.jpg">
+                    <h1>fresh mango</h1>
+                    <div class="price">$50.99/- - 99.90-</div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/mago2.jpg">
+                    <h1>fresh mango1</h1>
+                    <div class="price">$50.99/- - 99.90-</div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+                
+            </div>
+        </div>
+
+       </section>
+
+       <!--product section close-->
+       <!--categories start-->
+       <section class="categories" id="categories">
+        <h1 class="heading">product <span> categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/cat1.jpg">
+                <h3>vegetable</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/catt2.jpg">
+                <h3>dairy product</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/cat3.jpg">
+                <h3> fresh fruits</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/cat4.jpg">
+                <h3> fresh meats</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+
+       </section>
+       <!--categoreind end-->
+       <!--review start-->
+       <section class="review" id="review">
+        <h1 class="heading">customer <span> review </span></h1> 
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/review1.jpg">
+                    <p>I absolutely love shopping on this website! The interface is so user-friendly and intuitive. 
+                        I can easily find the products I'm looking for, and the search function works great.
+                         The design is clean and modern, making my shopping experience enjoyable.</p>
+                         <h3>Johan deo</h3>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                         </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/review2.jpg">
+                    <p>I absolutely love shopping on this website! The interface is so user-friendly and intuitive. 
+                        I can easily find the products I'm looking for, and the search function works great.
+                         The design is clean and modern, making my shopping experience enjoyable.</p>
+                         <h3>Johan deo</h3>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                         </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/review3.jpg">
+                    <p>I absolutely love shopping on this website! The interface is so user-friendly and intuitive. 
+                        I can easily find the products I'm looking for, and the search function works great.
+                         The design is clean and modern, making my shopping experience enjoyable.</p>
+                         <h3>Johan deo</h3>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                         </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/review4.jpg">
+                    <p>I absolutely love shopping on this website! The interface is so user-friendly and intuitive. 
+                        I can easily find the products I'm looking for, and the search function works great.
+                         The design is clean and modern, making my shopping experience enjoyable.</p>
+                         <h3>Johan deo</h3>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                         </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/review5.jpg">
+                    <p>I absolutely love shopping on this website! The interface is so user-friendly and intuitive. 
+                        I can easily find the products I'm looking for, and the search function works great.
+                         The design is clean and modern, making my shopping experience enjoyable.</p>
+                         <h3>Johan deo</h3>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                         </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/review6.jpg">
+                    <p>I absolutely love shopping on this website! The interface is so user-friendly and intuitive. 
+                        I can easily find the products I'm looking for, and the search function works great.
+                         The design is clean and modern, making my shopping experience enjoyable.</p>
+                         <h3>Johan deo</h3>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                         </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/review7.jpg">
+                    <p>I absolutely love shopping on this website! The interface is so user-friendly and intuitive. 
+                        I can easily find the products I'm looking for, and the search function works great.
+                         The design is clean and modern, making my shopping experience enjoyable.</p>
+                         <h3>Johan deo</h3>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                         </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/review8.jpg">
+                    <p>I absolutely love shopping on this website! The interface is so user-friendly and intuitive. 
+                        I can easily find the products I'm looking for, and the search function works great.
+                         The design is clean and modern, making my shopping experience enjoyable.</p>
+                         <h3>Johan deo</h3>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                         </div>
+                </div>
+
+            </div>
+        </div>
+
+       </section>
+       <!--review end-->
+       <!--blogs start-->
+       <section class="blogs" id="blogs">
+        <h1 class="heading">Our <span>Blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/blog6.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i> By User</a>
+                        <a href="#"><i class="fas fa-calendar"></i> 25 july, 2024</a>
+
+                    </div>
+                    <h3>Fresh And Organic vegetable And Fruits</h3>
+                    <p>The food you eat can either
+                         be the safest and most powerful form of medicine or the slowest 
+                         form of poison.</p>
+                         <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/blog2.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i> By User</a>
+                        <a href="#"><i class="fas fa-calendar"></i> 25 july, 2024</a>
+
+                    </div>
+                    <h3>Fresh And Organic vegetable And Fruits</h3>
+                    <p>The food you eat can either
+                         be the safest and most powerful form of medicine or the slowest 
+                         form of poison.</p>
+                         <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="images/blog5.jpeg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i> By User</a>
+                        <a href="#"><i class="fas fa-calendar"></i> 25 july, 2024</a>
+
+                    </div>
+                    <h3>Fresh And Organic vegetable And Fruits</h3>
+                    <p>The food you eat can either
+                         be the safest and most powerful form of medicine or the slowest 
+                         form of poison.</p>
+                         <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+
+
+        </div>
+       </section>
+
+       <!--blogs end-->
+       <!--footer section start-->
+       <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Groco <i class="fas fa-shopping-cart"></i></h3>
+             <p> Feel Free To Follow Us On Our Social Meia Handles All The 
+                Links Are Given Below.
+             </p>  
+             <div class="share">
+                <a href="#" class="fas fa-facebook"></a>
+                <a href="#" class="fas fa-twitter"></a>
+                <a href="#" class="fas fa-instagram"></a>
+                <a href="#" class="fas fa-linkedin"></a>
+             </div>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i>353535334</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i>353535334</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i>kanya@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker"></i>pune</a>
+
+             
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>features</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>products</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>categories</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>review</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>blogs</a>
+
+             
+            </div>
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Subscribe For Latest Updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="Subscribe" class="btn">
+                <img src="images/payment.png" class="payment-img">
+            </div>
+
+
+           
+            </div>
+
+
+        </div>
+
+        <div class="credit">Created By <span>Kanyakumari </span> All Right Reserved</div>
+       </section>
+       <!--footer section close-->
+
+
+
+
+
+
+
+
+
+
+
+
+       <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+       <!--<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>-->
+
+       <script src="js/script.js"></script>
+       <!--<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>-->
+        </body>
+</html>
